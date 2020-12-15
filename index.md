@@ -10,7 +10,9 @@ There are a few different types of vote that the bot can manage.
 
 #### Change server name
 To vote to change the server's name, send a message in the voting channel starting with `[VOTE] [SERVER NAME]`, followed by the suggested new name. For example, to hold a vote to change the server's name to 'A Server', you would send the following message:
+
 ```[VOTE] [SERVER NAME] A Server```
+
 Once the vote has passed, the bot will automatically update the server's name.
 
 #### Change server icon
@@ -22,11 +24,14 @@ The bot sometimes struggles if the image you attach is too large (either in file
 
 #### Invite a user
 To vote to invite a new user to the server, send a message in the voting channel starting with `[VOTE] [INVITE]`, followed by an explanation of who you want to invite and why you want to invite them. For example, if you wanted to invite your friend Bob who plays games with you, you would send the following message:
+
 ```[VOTE] [INVITE] Bob, because we want to play games together```
+
 Once the vote has passed, the bot will generate a single-use invite link for you to send to the user.
 
 #### Other/miscellaneous votes
 If you just want to vote on a random topic which doesn't require making a change to the server, you can start an 'other' vote. Other votes don't have any actual result or outcome - they just announce the result of the vote and nothing else. This is effectively just a generic poll command. To start an other vote, send a message in the voting channel starting with `[VOTE] [OTHER]`, followed by an explanation of what you're voting on. For example, if you're holding a movie night with your friends and want to ask whether everyone wants to order a pizza, you would send the following message:
+
 ```[VOTE] [OTHER] Shall we order a pizza?```
 
 ## Installation
