@@ -21,6 +21,7 @@ const admin_emojis = [
 
 client.on('ready', () => {
   console.log('I am ready!');
+  client.user.setPresence({ activity: { name: 'https://l.oolivero45.net/sm' }, status: 'online' });
 });
 
 client.on('message', message => {
