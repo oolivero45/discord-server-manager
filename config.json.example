@@ -1,0 +1,12 @@
+{
+  "token": "your_token_here",
+  "channel": "your_channel_id_here",
+  "role": "your_role_id_here",
+  "emojis": {
+    "yes": "👍",
+    "abstain": "✋",
+    "no": "👎",
+    "admin_yes": "🟢",
+    "admin_no": "🔴"
+  }
+}
