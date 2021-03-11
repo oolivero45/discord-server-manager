@@ -1,0 +1,105 @@
+{
+  "name": "vote",
+  "description": "Participate in server votes.",
+  "options": [
+    {
+      "type": 2,
+      "name": "start",
+      "description": "Start a new vote",
+      "options": [
+        {
+          "type": 1,
+          "name": "icon",
+          "description": "Start a vote to change the server's icon.",
+          "options": [
+            {
+              "type": 3,
+              "name": "image_url",
+              "description": "What is the URL of the image you want to use as the server's icon?",
+              "default": false,
+              "required": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "name": "name",
+          "description": "Start a vote to change the server's name.",
+          "options": [
+            {
+              "type": 3,
+              "name": "name",
+              "description": "What do you want to change the server's name to?",
+              "default": false,
+              "required": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "name": "invite",
+          "description": "Start a vote to invite a new user to the server.",
+          "options": [
+            {
+              "type": 3,
+              "name": "user",
+              "description": "Who do you want to invite to the server? Briefly describe them here.",
+              "default": false,
+              "required": true
+            },
+            {
+              "type": 3,
+              "name": "reason",
+              "description": "Why do you want to invite this user to the server?",
+              "default": false,
+              "required": true
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "name": "other",
+          "description": "Start a vote about anything else.",
+          "options": [
+            {
+              "type": 3,
+              "name": "reason",
+              "description": "What do you want to start a vote about?",
+              "default": false,
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "end",
+      "description": "End a vote early. This cancels the vote, meaning that it will not pass.",
+      "options": [
+        {
+          "type": 3,
+          "name": "id",
+          "description": "What is the vote ID? This will be listed in the vote message.",
+          "default": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "name": "status",
+      "description": "Get the status of a vote",
+      "options": [
+        {
+          "type": 3,
+          "name": "id",
+          "description": "What is the vote ID? This will be listed in the vote message.",
+          "default": false,
+          "required": true
+        }
+      ]
+    }
+  ]
+}
+
