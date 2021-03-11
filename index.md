@@ -3,7 +3,7 @@
 This is a Discord bot designed to allow you to run servers democratically through votes.
 
 ## How voting works
-Members can start a vote using a command (more details below). The bot will automatically post a message about the vote, amd add reactions to that message allowing members to either approve, abstain, or deny the vote. Once a majority (half plus one) of all non-bot, non-abstaining users have voted to either approve or deny the vote, the bot will automatically perform the action specified in the vote command.
+Members can start a vote using a command (more details below). The bot will automatically post a message about the vote, and add reactions to that message allowing members to either approve, abstain, or deny the vote. Once a majority (half plus one) of all non-bot, non-abstaining users have voted to either approve or deny the vote, the bot will automatically perform the action specified in the vote command.
 
 ## How to start a vote
 There are a few different types of vote that the bot can manage.
