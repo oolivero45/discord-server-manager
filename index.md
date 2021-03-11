@@ -17,7 +17,9 @@ Once the vote has passed, the bot will automatically update the server's name.
 
 #### Change server icon
 To vote to change the server's icon, run the command `/vote start icon <image_url>`, where `image_url` is the URL of the image you'd like to suggest. For example, to hold a vote to change the server's icon to the this image:
+
 ![Example Image](https://via.placeholder.com/64)
+
 You would send the following command:
 
 ```/vote start icon icon:https://via.placeholder.com/64```
