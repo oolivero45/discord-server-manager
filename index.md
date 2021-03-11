@@ -59,6 +59,8 @@ This bot requires the [discord.js](https://discord.js.org/) library. You can ins
 
 Copy `config.json.example` to `config.json`, and edit it to configure your bot. All config fields are required.
 
+You'll also need to create a set of slash commands for the application to use. This only needs to be done once, and is not done automatically - you'll need to do it yourself. Make sure that the application has the `application.commands` scope in the server you're planning on using it in. You can find the JSON payload for creating the commands in `slash_command_payload.json`.
+
 Once you've got discord.js installed and you've configured the bot, just run `sm.js` in the bot's directory to start it.
 
 ## Final notes
